@@ -1,0 +1,59 @@
+{
+  "mcpServers": {
+    "nasir-al-tusi-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "TUSI",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "compute_tusi_couple_transformation",
+          "description": "Converts circular orbital motion into pure linear oscillation without epicycles",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "radius_outer": {
+                "type": "number"
+              },
+              "rotation_rad": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "radius_outer",
+              "rotation_rad"
+            ]
+          }
+        },
+        {
+          "name": "solve_spherical_law_of_sines",
+          "description": "Applies spherical trigonometry to resolve planetary latitude inclinations",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "angle_a": {
+                "type": "number"
+              },
+              "side_a": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "angle_a",
+              "side_a"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
