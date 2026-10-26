@@ -1,0 +1,14 @@
+{
+  "project": "nasir-al-tusi-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "3vBKXTkd4vHR4P8kChvGryL6LQ4zz4YP5BK3kWR9iKBp",
+  "vault_account": "GpDt8JszW5M2VvR3VC4ieF5Pfa152BGEZHUsW2io6sKH",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "YGYsV9EhXsZGSxkQnA4qw9mPpHWxVr1mkw145JjBbvu38yyS5juXXRQ6tfjSrwKbiyMUQ6NAx8LuxAVGQeqxdmF",
+  "account_tx": "uJ8FWY2LXMAeyJNXgdTDx3ddL2HEV2hZUTDnAWQPj8Mjadf6DjNvcPepjBjnCBvuKbC2MeRTeEad8RV9rc6uJPM",
+  "mint_tx": "5tKsVDkTpDMDYLrzAMc3uZ3CVzx5ovWSazAFBVhZyWm6PvVmFFzxxWvoVLujwuMxTKVX6qfp41JhBb9ra4fnvN9o",
+  "solana_explorer_mint": "https://explorer.solana.com/address/3vBKXTkd4vHR4P8kChvGryL6LQ4zz4YP5BK3kWR9iKBp?cluster=devnet",
+  "timestamp": "2026-10-26 16:50:29 UTC"
+}
